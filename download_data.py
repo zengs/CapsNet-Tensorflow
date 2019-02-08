@@ -12,7 +12,8 @@ MNIST_TEST_IMGS_URL = HOMEPAGE + "t10k-images-idx3-ubyte.gz"
 MNIST_TEST_LABELS_URL = HOMEPAGE + "t10k-labels-idx1-ubyte.gz"
 
 # fashion-mnist dataset
-HOMEPAGE = "http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/"
+#HOMEPAGE = "http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/"
+HOMEPAGE = "https://raw.githubusercontent.com/zalandoresearch/fashion-mnist/master/data/fashion/"
 FASHION_MNIST_TRAIN_IMGS_URL = HOMEPAGE + "train-images-idx3-ubyte.gz"
 FASHION_MNIST_TRAIN_LABELS_URL = HOMEPAGE + "train-labels-idx1-ubyte.gz"
 FASHION_MNIST_TEST_IMGS_URL = HOMEPAGE + "t10k-images-idx3-ubyte.gz"
